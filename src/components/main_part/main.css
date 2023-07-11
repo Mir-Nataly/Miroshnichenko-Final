@@ -1,0 +1,31 @@
+.main-part {
+    background-color: rgb(158, 241, 158);
+    height: 80vh;
+    background-image: url('../../../public/images/bucycles.jpg');
+    background-size: cover;
+    background-color: rgba(37, 37, 36, 0.7);
+    background-blend-mode: multiply;
+}
+
+.short_description {
+    font-size: 40px; 
+    width: 400px;
+    font-weight: bold;
+    color: rgb(157, 228, 42);
+   -webkit-text-stroke: 1px rgb(15, 235, 187);
+}
+.long_description {
+    margin-top: 20px;
+    font-size: 25px; 
+    width: 400px;
+   
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+    border-color: aqua;
+}
