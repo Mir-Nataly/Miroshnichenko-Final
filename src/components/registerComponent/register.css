@@ -10,6 +10,7 @@
     border-radius: 20px;
     box-shadow: 5px 5px 5px 4px rgba(120, 50, 103, 0.2);
     flex-direction: column;
+
 }
 
 .input_register {
@@ -19,14 +20,17 @@
     width: 350px;
     border: 2px solid rgba(13, 62, 114, 0.2);
     border-radius: 5px; 
+    
 }
 
 .input_register :active, :hover, :focus {
     outline: 0;
+    
 }
 
 .checkbox_in_register_form {
     margin-top: 10px; 
+    
 }
 
 .checkbox1 {
@@ -37,6 +41,7 @@
     border-radius: 3px;
     margin-bottom: -2px;
     margin-right: 9px;
+    
 }
 .checkbox1:checked {
     appearance: none;
@@ -50,14 +55,18 @@
     background-position: center;
     margin-bottom: -2px;
     margin-right: 9px;
+    
 }
 
 .offscreen {
     position: absolute;
     left: -9999px;
+    
 }
 .instructions {
     color: red;
+    position: absolute;
+    margin-top: -20px;
 }
 .hide {
     display: none;

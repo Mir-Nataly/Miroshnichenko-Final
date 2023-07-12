@@ -1,5 +1,5 @@
 import './reportForm.css'
-import { ButtonSubmitReport } from '../buttons/buttonSubmitReport'
+import { ButtonSubmitReport } from '../buttons/buttonSubmitReport/buttonSubmitReport'
 import Select from 'react-select'
 
 const typeOptions = [

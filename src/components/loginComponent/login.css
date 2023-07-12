@@ -1,5 +1,9 @@
 .wrapper_for_login_form {
-    height: 74vh;   
+    height: 74vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
 }
 
 .login_form {
@@ -33,4 +37,11 @@
 .vaidation_error {
     color: red; 
     font-size: 16px;
+}
+
+.loginBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

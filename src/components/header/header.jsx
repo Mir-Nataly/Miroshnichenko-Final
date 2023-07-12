@@ -1,5 +1,5 @@
 import './header.css'
-import { ButtonLogIn } from '../buttons/buttonLogIn'
+import { ButtonLogIn } from '../buttons/buttonLogIn/buttonLogIn'
 import {Link} from 'react-router-dom'
 
 export const Header = () => {

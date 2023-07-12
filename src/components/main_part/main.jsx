@@ -1,5 +1,5 @@
 import './main.css'
-import { ButtonReport } from '../buttons/buttonReport'
+import { ButtonReport } from '../buttons/buttonReport/buttonReport'
 
 export const Main = () => {
     return (

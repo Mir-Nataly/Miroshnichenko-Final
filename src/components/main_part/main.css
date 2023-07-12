@@ -1,6 +1,8 @@
 .main-part {
     background-color: rgb(158, 241, 158);
-    height: 80vh;
+    /* height: 80vh; */
+    height: 100vh;
+    width: 100%;
     background-image: url('../../../public/images/bucycles.jpg');
     background-size: cover;
     background-color: rgba(37, 37, 36, 0.7);
@@ -18,6 +20,7 @@
     margin-top: 20px;
     font-size: 25px; 
     width: 400px;
+    /* height: 80%; */
    
 }
 

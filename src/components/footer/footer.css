@@ -1,9 +1,18 @@
 .footer {
     background: linear-gradient(to bottom right, rgb(6, 122, 50), #31d34c);
-    height: 10vh;
+    height: 100%;
+    align-items: self-start;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-left: 25px;
+    margin-top: auto;
+    position: fixed;
+    bottom: -93%;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding-top: 0;
+  
 }
 
 .references {
