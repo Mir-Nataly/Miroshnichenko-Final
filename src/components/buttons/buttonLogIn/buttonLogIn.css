@@ -1,5 +1,5 @@
 .button_log_in {
-    margin-left: 55%;
+    /* margin-left: 55%; */
     width: 100px;
     height: 50px; 
     border-radius: 5px;
@@ -9,6 +9,9 @@
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
     border: none;
+    /* position: fixed;
+    margin-top: 0; */
+
   }
 
   .button_log_in:hover {

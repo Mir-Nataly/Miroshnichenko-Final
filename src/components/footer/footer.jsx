@@ -3,7 +3,7 @@ import './footer.css'
 export const Footer = () => {
     return (
         <div className='footer'>
-            <div className='logo'>-Find a bike-</div>
+            <div className='logo'>Find a bike</div>
             <div className='references'>
                 <div>
                     <a href="https://unsplash.com/@pashkanevalashka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">фото Павел Харитонов</a>

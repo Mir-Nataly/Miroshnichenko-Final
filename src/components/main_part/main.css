@@ -7,6 +7,7 @@
     background-size: cover;
     background-color: rgba(37, 37, 36, 0.7);
     background-blend-mode: multiply;
+    /* margin-top: 100px; */
 }
 
 .short_description {
@@ -31,4 +32,11 @@
     align-items: center;
     border: 2px;
     border-color: aqua;
+    margin-top: 15%;
+}
+
+@media (max-width: 768px) {
+    .main-part {
+        margin-top: 90px;
+    }
 }

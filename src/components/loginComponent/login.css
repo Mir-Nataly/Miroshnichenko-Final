@@ -45,3 +45,10 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media (max-width: 768px) {
+    .wrapper_for_login_form {
+        margin-top: 50px;
+    }
+}
