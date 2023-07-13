@@ -1,26 +1,35 @@
 .main-part {
     background-color: rgb(158, 241, 158);
     /* height: 80vh; */
-    height: 100vh;
-    width: 100%;
+    height: 120vh;
+    /* width: 100%; */
     background-image: url('../../../public/images/bucycles.jpg');
     background-size: cover;
     background-color: rgba(37, 37, 36, 0.7);
     background-blend-mode: multiply;
-    /* margin-top: 100px; */
+    background-repeat: no-repeat;
+    background-position: center;
+     
 }
 
 .short_description {
     font-size: 40px; 
-    width: 400px;
+    /* width: 400px; */
+    width: auto;
     font-weight: bold;
     color: rgb(157, 228, 42);
    -webkit-text-stroke: 1px rgb(15, 235, 187);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 .long_description {
     margin-top: 20px;
     font-size: 25px; 
-    width: 400px;
+    width: auto;
+    text-align: center;
+    /* width: 400px; */
     /* height: 80%; */
    
 }
@@ -32,11 +41,17 @@
     align-items: center;
     border: 2px;
     border-color: aqua;
-    margin-top: 15%;
+    margin-top: 10%;  
 }
 
 @media (max-width: 768px) {
     .main-part {
         margin-top: 90px;
+        /* height: 100%; */
+       /*  background-image: none;
+        background-color: white; */
+    }
+    .btnReport {
+        margin-top: -10px;
     }
 }

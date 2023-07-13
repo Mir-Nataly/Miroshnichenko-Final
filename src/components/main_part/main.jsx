@@ -7,7 +7,7 @@ export const Main = () => {
             <div className='right_side'>
                 <span className='short_description'>Пропал велосипед?
                 <p className='long_description'>Пожалуйста, оставьте заявку в специальной форме.</p></span>
-                <ButtonReport/>
+                <div className='btnReport'><ButtonReport/></div>
             </div>
         </div>
     )
